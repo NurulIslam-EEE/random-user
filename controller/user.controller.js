@@ -26,7 +26,7 @@ module.exports.getRandomUser = (req, res, next) => {
   //   console.log("Done writing"); // Success
   // });
 
-  console.log(randomNumber);
+  // console.log(randomNumber);
   if (randomNumber >= 0 && randomNumber < users.length) {
     res.send(users[randomNumber]);
   } else {
@@ -36,7 +36,7 @@ module.exports.getRandomUser = (req, res, next) => {
 
 module.exports.getAllUser = (req, res, next) => {
   const queryValue = Object.values(req.query);
-  console.log(req.query, queryValue);
+  // console.log(req.query, queryValue);
   if (queryValue.length > 0) {
     const filterUser = users.slice(0, parseInt(queryValue[0]));
     res.json(filterUser);
@@ -64,7 +64,7 @@ module.exports.saveUser = (req, res, next) => {
       // Checking for errors
       if (err) throw err;
 
-      console.log("Done writing"); // Success
+      // console.log("Done writing"); // Success
     });
 
     res.json({ success: true, message: "Your Data save successfully" });
@@ -75,7 +75,7 @@ module.exports.saveUser = (req, res, next) => {
 
 module.exports.updateUser = (req, res, next) => {
   const newData = req.body;
-  console.log(req.body);
+  // console.log(req.body);
   if (typeof newData === "object" && !Array.isArray(req.body)) {
     const index = users.findIndex((d) => d.id == newData.id);
     if (index !== -1) {
@@ -130,7 +130,7 @@ module.exports.deleteUser = (req, res, next) => {
         // Checking for errors
         if (err) throw err;
 
-        console.log("Done writing"); // Success
+        // console.log("Done writing"); // Success
       });
 
       res.json({ message: "User delete successfully" });

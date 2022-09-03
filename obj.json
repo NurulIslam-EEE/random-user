@@ -1,0 +1,55 @@
+[
+    {
+        "id": "",
+        "gender": "male",
+        "name": "Johann Lacroix",
+        "contact": "",
+        "address": " Russikon, Neuchâtel, Switzerland",
+        "photoUrl": "https://randomuser.me/api/portraits/men/49.jpg"
+    },
+    {
+        "name": "New User",
+        "age": 30,
+        "language": [
+            "PHP",
+            "Go",
+            "JavaScript"
+        ]
+    },
+    {
+        "name": "New User",
+        "age": 30,
+        "language": [
+            "PHP",
+            "Go",
+            "JavaScript"
+        ]
+    },
+    {
+        "name": "New User",
+        "age": 30,
+        "language": [
+            "PHP",
+            "Go",
+            "JavaScript"
+        ]
+    },
+    {
+        "name": "New User",
+        "age": 30,
+        "language": [
+            "PHP",
+            "Go",
+            "JavaScript"
+        ]
+    },
+    {
+        "name": "New User",
+        "age": 30,
+        "language": [
+            "PHP",
+            "Go",
+            "JavaScript"
+        ]
+    }
+]
